@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 func speak(s string) {
-	fmt.Println("Hello", s)
+	fmt.Println("Hello", s, "- Have a nice day")
 }
 
 func main() {
-	speak("Adam")
+	speak("Adam Carter")
 }
